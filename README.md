@@ -12,11 +12,17 @@
 
 ---
 
+### 📷 报告截图
+
+![报告截图1](img/image-1.png)
+
+![报告截图2](img/image-2.png)
+
 ### 🚀 快速开始
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourname/LLM-JailHunter.git
+git clone https://github.com/seccmd/LLM-JailHunter.git
 cd LLM-JailHunter
 
 # 2. 安装依赖
@@ -50,3 +56,4 @@ LLM-JailHunter/
 ├── report.json             # 安全评估报告
 └── report.html             # 可视化 HTML 报告
 ```
+
