@@ -1,0 +1,8 @@
+# LLM 接口支持（兼容 OpenAI 格式的模型）
+langchain-openai>=0.1.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 异步 HTTP 客户端（langchain 内部依赖）
+httpx>=0.25.0

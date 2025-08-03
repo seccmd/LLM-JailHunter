@@ -1,0 +1,37 @@
+[
+  {
+    "name": "deepseek-chat",
+    "enabled": true,
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY"
+  },
+  {
+    "name": "ark-volces",
+    "enabled": true,
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "model": "deepseek-v3-250324",
+    "api_key_env": "ARK_API_KEY"
+  },
+  {
+    "name": "qwen-max",
+    "enabled": false,
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "model": "qwen-max",
+    "api_key_env": "QWEN_API_KEY"
+  },
+  {
+    "name": "moonshot",
+    "enabled": false,
+    "base_url": "https://api.moonshot.cn/v1",
+    "model": "moonshot-v1-8k",
+    "api_key_env": "MOONSHOT_API_KEY"
+  },
+  {
+    "name": "custom-llm",
+    "enabled": false,
+    "base_url": "http://localhost:8000/v1",
+    "model": "llama3",
+    "api_key_env": "CUSTOM_LLM_API_KEY"
+  }
+]
